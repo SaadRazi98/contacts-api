@@ -7,6 +7,6 @@
 #   Character.create(name: "Luke", movie: movies.first)
 
 100.times do
-  contact = Contact.new(first_name: FFaker::Name.first_name, last_name:FFaker::Name.last_name, email: FFaker::Internet.email, phone_nmuber: FFaker:: PhoneNumber.phone_nmuber)
-contact.save
+  contact = Contact.new(first_name: FFaker::Name.first_name, last_name: FFaker::Name.last_name, email: FFaker::Internet.email, phone_number: FFaker::PhoneNumber.phone_number)
+  contact.save
 end 
